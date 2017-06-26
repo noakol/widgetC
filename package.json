@@ -1,0 +1,36 @@
+{
+  "name": "widgetc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/widgetC.js",
+  "main:next": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:es5": "webpack & es6",
+    "es6": "babel --no-babelrc src/ --out-dir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noakol/widgetC.git"
+  },
+  "author": "name <name@amdocs.com> (http://blog.example.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noakol/widgetC/issues"
+  },
+  "homepage": "https://github.com/noakol/widgetC#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.0.0",
+    "webpack-bundle-analyzer": "^2.8.2"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
